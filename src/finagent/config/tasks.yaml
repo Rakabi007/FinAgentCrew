@@ -1,0 +1,77 @@
+research_task:
+  description: >
+    Conduct a thorough and systematic investigation of the latest news, articles, and scholarly resources on {topic} using the Serper Search Tool. 
+    Ensure comprehensive and diverse coverage by leveraging all available digital tools and sources. The research should provide a detailed explanation of the principles, concepts, disciplines, and skills necessary for a visionary to achieve their goals. 
+    Document findings meticulously, highlighting key insights, trends, and relevant information to support informed decision-making.
+  expected_output: >
+    Detailed Research Report on {topic}
+     1. **Executive Summary**: A concise overview of the research findings, highlighting the most critical insights and conclusions drawn from the gathered data.
+     2. **Introduction**: Background information on why the research on {topic} is crucial at this point in time. Include the scope of the research and the main objectives.
+     3. **Methodology**:
+     - **Sources Used**: List all sources utilized, including digital databases, news websites, and any subscriptions or specialized tools.
+     - **Search Criteria**: Describe the search criteria and keywords used to gather the relevant information.
+     - **Data Collection Process**: Outline the steps taken in the data collection process, including any automation tools or software used.
+     4. **Findings**:
+     - **Key Information Gathered**: Summarize the key information gathered from each source, categorized by relevance and impact on the topic.
+     - **Themes Identified**: Discuss any recurring themes or commonalities found across different sources.
+     5. **Analysis**:
+     - **Relevance to Current Trends**: Analyze how the findings relate to current trends or developments in the field.
+     - **Gaps in Information**: Highlight any noticeable gaps in information that could require further research.
+     6. **Conclusion**:
+     - **Summary of Findings**: Briefly reiterate the most critical findings and their implications.
+     - **Recommendations for Further Research**: Suggest areas where additional investigation could be beneficial based on gaps or emerging trends noted during the research.
+     7. **References**:
+     - **Full Citations**: Provide full citations for all sources used, formatted according to a recognized academic standard.
+
+advise_task:
+  description: >
+    Using the insights provided, write an article like an engaging blog post that highlights the most significant {topic}
+    active in personal Finance with important of personal finance and there impact about the {topic}
+  expected_output: >
+    Comprehensive Analysis Report:
+    Your article should be informative yet accessible, catering to a teenage audience eager to learn about personal finance. Make it engaging and relatable, avoiding overly complex language to ensure it doesn't sound like it was written by an AI. The final output MUST be a fully structured blog post.
+    
+    The report should include:
+     1. **Introduction**:
+        - A captivating opening that introduces the {topic} and its relevance to personal finance.
+        - Mention the importance of understanding personal finance at a young age.
+     2. **10 Key Subtopics**:
+        - Each subtopic should be a separate section with a clear heading.
+        - Use simple, everyday language and keep the explanations concise.
+        - Include relatable examples or scenarios to illustrate each point.
+        - Use emojis to highlight important points and make the content visually appealing.
+     3. **Practical Tips**:
+        - Offer actionable advice and tips within each subtopic.
+        - Ensure the tips are practical and easy to implement for a teenage audience.
+     4. **Impact of Personal Finance**:
+        - Discuss the broader impact of good personal finance habits on future financial stability and well-being.
+        - Highlight how the {topic} plays a crucial role in financial planning and decision-making.
+     5. **Summary**:
+        - Summarize the key points discussed in the article.
+        - Provide a list of relevant content with web addresses, headlines, and bullet points for easy reference.
+     6. **Conclusion**:
+        - Reinforce the importance of personal finance and the {topic}.
+        - Encourage readers to take the first steps towards better financial management.
+     7. **References**:
+        - Include full citations for any sources or statistics mentioned in the article.
+        - Format the references according to a recognized standard.
+
+    The article should be a minimum of 1600 words, ensuring comprehensive coverage of the topic. Make sure to keep the tone engaging and informative, suitable for a teenage audience.
+
+
+Suggetion_task:
+  description: >
+    sysmatically analize the research from the {topic}, and give reasoning to the customer about the analysis and 
+    council them based on the current scenario of financial market and give very genuine advise about the step to optimise there goal.
+    decribe them the pros and cons for the advise from {topic} that you mention, make sure that your advise has some 
+    reason behind it and how it can help them.
+  expected_output: >
+    Comprehensive Financial Advisory Report:
+    1. Executive Summary: A brief overview of the analysis, highlighting key findings and recommendations.
+
+    Additional Requirements:
+    - Audience Engagement: Ensure the report is informative yet accessible, using clear and relatable language.
+    - Minimum Length: The report should be a minimum of 200 words.
+    - Subtopics: Highlight at least 10 important subtopics related to {topic}.
+    - Summarized Content: Include a summary with relevant URLs, headlines, and bullet points for easy reading.
+    - Engaging Elements: Use emojis to highlight important parts and make the report engaging.
