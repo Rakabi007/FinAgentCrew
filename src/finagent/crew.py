@@ -38,15 +38,6 @@ class finagent:
 			allow_delegation=True
         )
 
-    @agent
-    def Financial_Planner(self) -> Agent:
-        return Agent(
-            config=self.agents_config['Financial_Planner'],
-            llm=self.groq_llm,
-            #tools=[SerperDevTool()],
-            verbose=True,
-			allow_delegation=False
-        )
 
     
     @agent
@@ -54,7 +45,7 @@ class finagent:
         return Agent(
             config=self.agents_config['recommendation_agent'],
             llm=self.groq_llm,
-            #tools=[SerperDevTool()], # Example of custom tool, loaded on the beginning of file
+            tools=[SerperDevTool()], # Example of custom tool, loaded on the beginning of file
             verbose=True,
 			allow_delegation=False
         )
@@ -66,13 +57,7 @@ class finagent:
             agent=self.Resercher_agent()
         )
 
-    @task
-    def advise_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['advise_task'],
-            agent=self.Financial_Planner()
-			#human_input=True
-        )
+  
 
 
     @task
@@ -92,7 +77,7 @@ class finagent:
             tasks=self.tasks,    # Automatically created by the @task decorator
             process=Process.sequential,
 			memory=False,
-            max_rpm=200,
+            max_rpm=250,
             verbose=2
 
             # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
